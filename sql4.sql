@@ -4,7 +4,7 @@ CREATE TABLE cathedrals (
     chief VARCHAR(512) NOT NULL
 );
 
-ALERT TABLE groups
+ALTER TABLE groups
 ADD COLUMN cathedral_id INT;
 
 INSERT INTO cathedrals (name, chief)
